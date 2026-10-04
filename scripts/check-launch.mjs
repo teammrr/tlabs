@@ -17,6 +17,7 @@ if (!form.consentReviewed) missing.push("site.config.ts: problemForm.consentRevi
 
 for (const lang of ["en", "th"]) {
   const content = JSON.parse(readFileSync(new URL(`../content/${lang}.json`, import.meta.url), "utf8"));
+  if (content.exploring?.draftNote) missing.push(`content/${lang}.json: exploring.draftNote (Thai project cards need a native read; remove once reviewed)`);
   if (content.problem?.draftNote) missing.push(`content/${lang}.json: problem.draftNote (review marker; remove once reviewed)`);
 }
 
