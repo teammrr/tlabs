@@ -173,7 +173,9 @@ section { padding-block: var(--section-y); }
 .projects .card { max-width: none; align-content: start; }
 .projects .card:nth-child(2) { border-radius: 1.5rem 4rem 1.5rem 3rem; }
 .projects .card:nth-child(2):hover { transform: translateY(-4px) rotate(1deg); }
-.picon { width: 72px; height: 72px; border-radius: 18px; display: block; border: 1px solid rgba(23, 22, 15, .2); }
+.picon { width: 88px; height: 88px; border-radius: 22.5%; overflow: hidden; transform: rotate(-3deg); box-shadow: 0 0 0 1px rgba(23, 22, 15, .14), 0 10px 24px -12px rgba(23, 22, 15, .35); }
+.projects .card:nth-child(2) .picon { transform: rotate(3deg); }
+.picon img { width: 100%; height: 100%; display: block; }
 .pname { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .pname h3 { font-size: clamp(1.6rem, 3.4vw, 2rem); }
 .pname .alt { color: var(--ink-soft); font-family: var(--font-display); font-size: 1.2rem; }

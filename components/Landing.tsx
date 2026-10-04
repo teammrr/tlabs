@@ -54,8 +54,10 @@ export function Landing({ locale }: { locale: Locale }) {
             <div className="projects">
               {t.exploring.projects.map((project) => (
                 <article className="card" key={project.id}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="picon" src={`/${project.id}-icon.svg`} width={72} height={72} alt={project.iconAlt} />
+                  <div className="picon" role="img" aria-label={project.iconAlt}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={`/${project.id}-icon.svg`} width={88} height={88} alt="" aria-hidden="true" />
+                  </div>
                   <span className="chip">{t.exploring.chip}</span>
                   <div className="pname">
                     <h3>{project.name}</h3>

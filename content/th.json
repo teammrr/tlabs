@@ -45,14 +45,14 @@
     "projects": [
       {
         "id": "maalaew",
-        "iconAlt": "ไอคอนแอป Maa Laew",
+        "iconAlt": "Maa Laew app icon",
         "name": "Maa Laew",
         "altName": "มาแล้ว",
         "body": "มาวิ่ง เช็กอิน รักษาสตรีค คลับวิ่งและคลับเทรนนิ่งในกรุงเทพฯ รวมอยู่ในปฏิทินเดียว"
       },
       {
         "id": "toh",
-        "iconAlt": "ไอคอนแอป Toh",
+        "iconAlt": "Toh app icon",
         "name": "Toh",
         "altName": "โต๊ะ",
         "body": "จองโต๊ะกับเพื่อนและหารมัดจำกัน เมื่อทุกคนจ่ายครบ โต๊ะก็เป็นของพวกคุณ"
