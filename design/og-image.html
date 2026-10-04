@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TLab OG image (1200x630)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,600,50&family=IBM+Plex+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+<style>
+  /* Reference for the 1200x630 social/LINE preview. Render to PNG (e.g. Next.js opengraph-image with ImageResponse). */
+  html, body { margin: 0; }
+  .og {
+    position: relative; overflow: hidden;
+    width: 1200px; height: 630px;
+    background: #FAF8F2; color: #17160F;
+    font-family: "Fraunces", Georgia, serif;
+  }
+  .rule { position: absolute; left: 0; right: 0; top: 0; height: 12px; background: #17160F; }
+  .blob {
+    position: absolute; right: -120px; top: 90px; width: 520px; height: 520px;
+    background: #17160F; border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  .logo { position: absolute; left: 80px; top: 64px; font-size: 44px; font-weight: 600; display: flex; align-items: center; gap: 14px; letter-spacing: -0.02em; }
+  .logo i { width: 26px; height: 26px; background: #17160F; border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  h1 { position: absolute; left: 80px; bottom: 96px; margin: 0; width: 640px; font-size: 104px; line-height: 1.02; font-weight: 600; letter-spacing: -0.025em; font-variation-settings: "SOFT" 50; }
+  .sub { position: absolute; left: 80px; bottom: 44px; font-family: "IBM Plex Sans Thai", sans-serif; font-size: 26px; color: #5A574E; }
+</style>
+</head>
+<body>
+<div class="og">
+  <div class="rule"></div>
+  <div class="logo"><i></i>TLab</div>
+  <div class="blob"></div>
+  <h1>We build software for fun.</h1>
+  <div class="sub">A small Thai crew · เราทำซอฟต์แวร์เพราะมันสนุก</div>
+</div>
+</body>
+</html>

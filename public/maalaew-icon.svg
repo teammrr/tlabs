@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Maa Laew app icon (organic / quiet). Full-bleed moss field; the OS applies its own mask.
+       The mark stays inside the central 66% (Android adaptive safe zone). Shapes only: no font needed. -->
+  <rect width="1024" height="1024" fill="#5D7052"/>
+  <ellipse cx="760" cy="300" rx="260" ry="220" fill="#6B7E60" opacity=".55" transform="rotate(-18 760 300)"/>
+  <g transform="translate(212 212) scale(25.5)">
+    <path d="M11.6 3.1C16.6 2.4 21.6 5.6 21.3 11.2 21 16.8 16.4 21.2 11.2 20.7 5.8 20.2 2.4 16.2 2.8 11.8 3.1 8 5.4 4.8 8.4 3.9" fill="none" stroke="#FDFCF8" stroke-width="1.900" stroke-linecap="round"/>
+    <circle cx="10" cy="3.5" r="1.9" fill="#C18C5D"/>
+  </g>
+</svg>

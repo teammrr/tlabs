@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Toh app icon: a full table seen from above, six seats around an ice tabletop. Shapes only, no font needed.
+       The mark stays inside the central 66 percent (Android adaptive safe zone). -->
+  <rect width="1024" height="1024" fill="#0F1317"/>
+  <circle cx="512" cy="512" r="400" fill="#171D23"/>
+  <circle cx="512" cy="512" r="150" fill="#8FD3FF"/>
+  <g fill="#EEF1F4">
+    <circle cx="643" cy="285" r="68"/>
+    <circle cx="774" cy="512" r="68"/>
+    <circle cx="643" cy="739" r="68"/>
+    <circle cx="381" cy="739" r="68"/>
+    <circle cx="250" cy="512" r="68"/>
+    <circle cx="381" cy="285" r="68"/>
+  </g>
+</svg>

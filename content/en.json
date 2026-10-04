@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "TLab",
+    "description": "TLab is a small Thai crew that builds software for fun, and to fix everyday Thai problems nobody has gotten around to yet."
+  },
+  "common": {
+    "placeholder": "(placeholder)",
+    "skip": "Skip to content"
+  },
+  "nav": {
+    "contact": "Say hi",
+    "languageLabel": "Language / ภาษา",
+    "problem": "Got a problem?"
+  },
+  "hero": {
+    "title": "We build software for fun.",
+    "lead": "TLab is a small Thai crew. We make software for the fun of it, and to fix the everyday Thai problems nobody has gotten around to yet.",
+    "primary": "Say hi",
+    "secondary": "What we're up to"
+  },
+  "what": {
+    "title": "We find everyday problems and build small things to fix them.",
+    "items": [
+      {
+        "title": "Spot the gap",
+        "body": "We look for corners of Thai life the big platforms skip, especially the ones starting to grow."
+      },
+      {
+        "title": "One thing at a time",
+        "body": "One simple product at a time. We ship early, listen, and tweak."
+      },
+      {
+        "title": "Made for here",
+        "body": "Thai language, LINE, PromptPay. The stuff people here actually use."
+      }
+    ]
+  },
+  "exploring": {
+    "title": "What we're building",
+    "chip": "In development",
+    "noteBefore": "Got a problem we should look at? ",
+    "noteLink": "Tell us",
+    "noteAfter": ".",
+    "lead": "Two things on our bench right now. Both are in development, with nothing to try yet.",
+    "projects": [
+      {
+        "id": "maalaew",
+        "iconAlt": "Maa Laew app icon",
+        "name": "Maa Laew",
+        "altName": "",
+        "body": "Show up, check in, keep the streak. Run and training clubs in Bangkok, all in one calendar."
+      },
+      {
+        "id": "toh",
+        "iconAlt": "Toh app icon",
+        "name": "Toh",
+        "altName": "",
+        "body": "Book a table with friends and split the deposit. The table's yours when everyone's paid."
+      }
+    ]
+  },
+  "how": {
+    "title": "How we like to work",
+    "items": [
+      {
+        "title": "Talk first",
+        "body": "We chat with the people who live the problem before writing any code."
+      },
+      {
+        "title": "Stay small",
+        "body": "If a feature doesn't help the main thing, it can wait."
+      },
+      {
+        "title": "Keep it plain",
+        "body": "Clear prices, no jargon. We take your data seriously (PDPA, done properly)."
+      }
+    ]
+  },
+  "team": {
+    "title": "The crew",
+    "photoAlt": "Photo placeholder",
+    "namePlaceholder": "[Name]",
+    "rolePlaceholder": "[Role]",
+    "soon": "Introductions coming soon."
+  },
+  "contact": {
+    "title": "Say hi",
+    "lead": "Whether you run a brand, a community or a team, or you're just curious, drop us a line. We like meeting new people.",
+    "button": "Say hi by email",
+    "line": "LINE OA",
+    "emailPlaceholder": "[email placeholder]",
+    "problemCta": "Got a problem? Tell us"
+  },
+  "footer": {
+    "legalPlaceholder": "[Legal entity name / registration no.]",
+    "privacy": "Privacy policy",
+    "made": "Made in Thailand"
+  },
+  "problem": {
+    "meta": {
+      "title": "Got a problem? | TLab",
+      "description": "Tell TLab about an everyday Thai problem that annoys you. No name needed. We read what you send when we pick what to look at next."
+    },
+    "title": "Got a problem?",
+    "lead": "Something in everyday Thai life that's annoying, clunky or just missing? Tell us. You don't need to be polite or precise, and you don't need to leave your name.",
+    "problem": {
+      "label": "The problem",
+      "hint": "What's annoying you? Tell us like you'd tell a friend. Please leave out other people's names and phone numbers."
+    },
+    "who": {
+      "label": "Who has this problem?",
+      "hint": "Me, my friends, my shop, my club…"
+    },
+    "today": {
+      "label": "How do you deal with it today?",
+      "hint": "LINE, spreadsheets, just suffer…"
+    },
+    "category": {
+      "label": "What's it about?",
+      "hint": "Pick any that fit, or none.",
+      "options": [
+        {
+          "value": "lifestyle",
+          "label": "Lifestyle"
+        },
+        {
+          "value": "fitness",
+          "label": "Fitness"
+        },
+        {
+          "value": "food",
+          "label": "Food"
+        },
+        {
+          "value": "nightlife",
+          "label": "Nightlife"
+        },
+        {
+          "value": "fan-stuff",
+          "label": "Fan stuff"
+        },
+        {
+          "value": "work",
+          "label": "Work"
+        },
+        {
+          "value": "small-business",
+          "label": "Small business"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ]
+    },
+    "follow": {
+      "label": "Can we follow up?",
+      "hint": "Totally optional. Skip it and we'll still read your problem.",
+      "nickname": "Nickname",
+      "email": "Email",
+      "line": "LINE ID"
+    },
+    "consent": {
+      "label": "OK, TLab can keep my contact details to follow up about this problem.",
+      "hint": "Needed only if you leave a nickname, email or LINE ID.",
+      "collectTitle": "What we collect",
+      "collect": "The problem you write, any optional answers, and the contact details you choose to add.",
+      "whyTitle": "Why",
+      "why": "To understand the problem, and to follow up with you if you left contact details.",
+      "keepTitle": "How long we keep it",
+      "keepBefore": "We keep it for ",
+      "keepAfter": ", then delete it.",
+      "whereTitle": "Where it's stored",
+      "rightsTitle": "Your rights",
+      "rightsBefore": "Want to see it, correct it or delete it? You can also take back your OK any time. Email ",
+      "rightsAfter": ".",
+      "privacy": "Privacy policy",
+      "reviewNote": "[Consent text: pending founder or counsel review]",
+      "retentionPlaceholder": "[retention period]",
+      "storagePlaceholder": "[storage location]"
+    },
+    "submit": "Send it",
+    "sending": "Sending…",
+    "errors": {
+      "summary": "Almost there. A couple of things to fix:",
+      "problemRequired": "Tell us the problem first. Even a sentence helps.",
+      "emailInvalid": "That email doesn't look right. Check it or leave it blank.",
+      "consentRequired": "Tick the box so we can keep your contact details, or clear the contact fields to stay anonymous."
+    },
+    "failed": {
+      "title": "That didn't go through.",
+      "body": "Our form hiccuped. What you wrote is still on your screen. You can email it to us instead:",
+      "mailto": "Email it instead",
+      "mailSubject": "A problem for TLab"
+    },
+    "success": {
+      "title": "Thanks, got it!",
+      "body": "Your problem is in the pile we look through when we pick what to try next. If you left contact details, we might get in touch.",
+      "again": "Send another",
+      "home": "Back home"
+    }
+  }
+}
