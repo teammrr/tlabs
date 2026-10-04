@@ -6,7 +6,7 @@ import { siteConfig } from "../site.config.ts";
 
 const missing = [];
 for (const key of ["siteUrl", "contactEmail", "legalEntity", "privacyPolicyUrl"]) {
-  if (!siteConfig[key]) missing.push(`site.config.ts: ${key}`);
+  if (key === "legalEntity" ? siteConfig[key] === null : !siteConfig[key]) missing.push(`site.config.ts: ${key}`);
 }
 if (siteConfig.team.length === 0) missing.push("site.config.ts: team (placeholder block still showing)");
 

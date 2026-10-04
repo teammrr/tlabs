@@ -11,9 +11,9 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         <span>© 2026 TLab · {t.footer.made}</span>
         {legalEntity ? (
           <span className="small">{legalEntity}</span>
-        ) : (
+        ) : legalEntity === null ? (
           <span className="small ph">{t.footer.legalPlaceholder}</span>
-        )}
+        ) : null}
         <a className="small" href={localePath(locale, "problem")}>{t.nav.problem}</a>
         <a className="small" href={privacyPolicyUrl ?? "#"}>
           {t.footer.privacy}

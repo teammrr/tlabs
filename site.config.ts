@@ -6,15 +6,17 @@ export const siteConfig = {
   // Production origin, e.g. "https://tlab.example". Needed for canonical, OG and sitemap URLs.
   siteUrl: null as string | null,
   // e.g. "hello@tlab.example"
-  contactEmail: null as string | null,
+  contactEmail: "contact@tlabs.io" as string | null,
   // Optional LINE Official Account URL. Leave null to hide the LINE button.
   lineOaUrl: null as string | null,
-  // Legal entity name and registration number.
-  legalEntity: null as string | null,
+  // Legal entity name and registration number. "" = deliberately none (the footer line is hidden); null = still a placeholder.
+  legalEntity: "" as string | null,
   // Link to the PDPA privacy policy.
   privacyPolicyUrl: null as string | null,
   // Leave empty to show the team placeholder. Add people once the founder confirms.
-  team: [] as { name: { en: string; th: string }; role: { en: string; th: string } }[],
+  team: [
+    { name: { en: "Suteemon Vararatsamenitikul", th: "Suteemon Vararatsamenitikul" }, role: { en: "Team", th: "ทีม" } },
+  ] as { name: { en: string; th: string }; role: { en: string; th: string } }[],
 
   // "Got a problem?" form. Submissions go to POST /api/problem/ and are stored in Postgres
   // (see README, "Founder setup"). The connection string lives in env vars, never here.
